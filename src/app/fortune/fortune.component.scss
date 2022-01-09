@@ -1,0 +1,54 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(45deg, rgb(10, 177, 74), whitesmoke);
+
+  .form {
+    background-color: cadetblue;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 9px black;
+    border-radius: 10px;
+    .card-top {
+      display: flex;
+      flex-direction: row;
+      height: 200px;
+      .top-left {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex: 50;
+        .num-input{
+          background-color: transparent;
+          outline: transparent;
+          border: transparent;
+
+        }
+        .add-button {
+          margin-top: auto;
+          background-color: rgb(10, 177, 74);
+          color: whitesmoke;
+          width: 90%;
+        }
+      }
+      .top-right{
+        display: flex;
+        flex-direction: column;
+        flex: 50;
+
+      }
+    }
+
+    .calc-button {
+      background-color: rgb(7, 204, 211);
+      color: whitesmoke;
+    }
+  }
+}
